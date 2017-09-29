@@ -13,9 +13,9 @@ class CreateGoodsTable extends Migration
     public function up()
     {
         Schema::create('goods', function (Blueprint $table) {
-            $table->increments('id');
+            $table->increments('id')->unsigned();
 	    $table->string('name', 100);
-	    $table->decimal(price, 8,2);
+	    $table->decimal('price', 8,2)->unsigned();
 	    $table->text('description');
 	    $table->text('image');
             $table->timestamps();

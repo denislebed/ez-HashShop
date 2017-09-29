@@ -13,8 +13,14 @@ class CreateGoodsOrdersTable extends Migration
     public function up()
     {
         Schema::create('goods_orders', function (Blueprint $table) {
-            $table->increments('id');
-	    
+            $table->increments('id')->unsigned();
+            $table->integer('goods_id')->unsigned();
+            $table->integer('order_id')->unsigned();
+            $table->integer('amount')->unsigned();
+            $table->foreign('goods_id')
+                    ->references('id')->on('goods');
+            $table->foreign('order_id')
+                    ->references('id')->on('order');
             $table->timestamps();
         });
     }
