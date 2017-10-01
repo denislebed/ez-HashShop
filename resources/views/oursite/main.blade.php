@@ -47,7 +47,7 @@
         <div class="header" id="home1">
             <div class="container">			
                 <div class="w3l_logo">
-                    <h1><a href="index.blade.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
+                    <h1><a href="main.blade.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
                 </div>
                 <div class="search">
                     <input class="search_box" type="checkbox" id="search_box">
@@ -84,7 +84,7 @@
                     </div> 
                     <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.blade.php" class="act">Домой</a></li>	
+                            <li><a href="main.blade.php" class="act">Домой</a></li>	
                             <!-- Mega Menu -->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Категории<b class="caret"></b></a>
@@ -309,7 +309,7 @@
             <div class="col-md-3 w3_footer_grid">
                 <h3>Профиль</h3>
                 <ul class="info"> 
-                    <li><a href="index.blade.php">Домой</a></li>
+                    <li><a href="main.blade.php">Домой</a></li>
                     <li><a href="products.blade.php">SALE</a></li>
                 </ul>
                 <h4>Подпишись</h4>
