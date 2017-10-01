@@ -13,7 +13,7 @@
 
 
 Route::auth();
-Route::get('/', 'MainController@index');
+Route::get('/main', 'MainController@index');//!!!добавил main
 
 Route::get('/admin', 'AdminController@index');
 Route::get('/admin/categories', 'AdminController@categories');
