@@ -157,7 +157,7 @@
                         <img src="images/26.jpg" alt=" " class="img-responsive" /> 
                    
                     </div>
-                    <h5><a href="single.blade.php">Dell A250</a></h5>
+                    <h5><a href="products1.blade.php">Dell A250</a></h5>
                     <div class="simpleCart_shelfItem">
                         <p><i class="item_price">14999 грн</i></p>
                     </div>
@@ -172,7 +172,7 @@
                         <img src="images/iphone4.jpg" alt=" " class="img-responsive" />
                         <img src="images/iphone5.jpg" alt=" " class="img-responsive" /> 
                     </div>
-                    <h5><a href="single.blade.php">iPhone X</a></h5>
+                    <h5><a href="products.blade.php>iPhone X</a></h5>
                     <div class="simpleCart_shelfItem">
                         <p><i class="item_price">35999 грн + Золотой чехол</i></p>
                     </div>
@@ -183,7 +183,7 @@
                     <div class="hs-wrapper hs-wrapper1">
                         <img src="images/daewoo.jpg" alt=" " class="img-responsive" />
                     </div>
-                    <h5><a href="single.blade.php">Daewoo</a></h5>
+                    <h5><a href="products2.blade.php">Daewoo</a></h5>
                     <div class="simpleCart_shelfItem">
                         <p><i class="item_price">9999 грн</i></p>                       
                     </div>  
@@ -194,7 +194,7 @@
                     <div class="hs-wrapper hs-wrapper1">
                         <img src="images/bosch.jpg" alt=" " class="img-responsive" />                       
                     </div>
-                    <h5><a href="single.blade.php">Утюг</a></h5>
+                    <h5><a href="products2.blade.php">Утюг</a></h5>
                     <div class="simpleCart_shelfItem">
                         <p><i class="item_price">3200 грн</i></p>                      
                     </div>

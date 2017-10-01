@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <title>Electronic Store</title>
 <!-- for-mobile-apps -->
