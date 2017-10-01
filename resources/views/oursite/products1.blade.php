@@ -1,52 +1,50 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Electronic Store</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-	SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-	function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<!-- Custom Theme files -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> 
-<link href="css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
-<!-- //Custom Theme files -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- js -->
-<script src="js/jquery.min.js"></script> 
-<!-- //js -->  
-<!-- web fonts --> 
-<link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- //web fonts --> 
-<!-- for bootstrap working -->
-<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-<!-- //for bootstrap working -->
-<!-- start-smooth-scrolling -->
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- //end-smooth-scrolling --> 
-</head> 
-<body> 
-	<!-- header modal -->
-	<!-- header -->
-	<div class="header" id="home1">
+    <head>
+        <title>Electronic Store</title>
+        <!-- for-mobile-apps -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+              SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+            function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- //for-mobile-apps -->
+        <!-- Custom Theme files -->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> 
+        <link href="css/fasthover.css" rel="stylesheet" type="text/css" media="all"/>  <!-- font-awesome icons -->
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <!-- //Custom Theme files --> 
+        <!-- js -->
+        <script src="js/jquery.min.js"></script> 
+        <!-- //js -->  
+        <!-- web fonts --> 
+        <link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        <!-- //web fonts --> 
+        <!-- for bootstrap working -->
+        <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+        <!-- //for bootstrap working -->
+        <!-- start-smooth-scrolling -->
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                $(".scroll").click(function (event) {
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+                });
+            });
+        </script>
+        <!-- //end-smooth-scrolling --> 
+    </head> 
+    <body> 
+        <!-- header modal -->
+        <!-- header -->
+        <div class="header" id="home1">
             <div class="container">			
                 <div class="w3l_logo">
-                    <h1><a href="index.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
+                    <h1><a href="index.blade.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
                 </div>
                 <div class="search">
                     <input class="search_box" type="checkbox" id="search_box">
@@ -67,9 +65,9 @@
                 </div>  
             </div>
         </div>
-	<!-- //header -->
-	<!-- navigation -->
-	<div class="navigation">
+        <!-- //header -->
+        <!-- navigation -->
+        <div class="navigation">
             <div class="container">
                 <nav class="navbar navbar-default">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -83,7 +81,7 @@
                     </div> 
                     <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.php" class="act">Домой</a></li>	
+                            <li><a href="index.blade.php" class="act">Домой</a></li>	
                             <!-- Mega Menu -->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Категории<b class="caret"></b></a>
@@ -91,20 +89,20 @@
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products.php">Смартфоны</a></h6>
+                                                <h6><a href="products.blade.php">Смартфоны</a></h6>
                                             </ul>								</div>
                                         <div class="col-sm-3">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products1.php">Компьютеры</a></h6>			
-<!--											<li><a href="products1.php">Wearables <span>New</span></a></li>-->
-<!--											<li><a href="products1.php"><i>Summer Store</i></a></li>-->
+                                                <h6><a href="products1.blade.php">Компьютеры</a></h6>			
+<!--											<li><a href="products1.blade.php">Wearables <span>New</span></a></li>-->
+<!--											<li><a href="products1.blade.php"><i>Summer Store</i></a></li>-->
                                             </ul>
                                         </div>
                                         <div class="col-sm-2">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products2.php">Быт.Техника</a></h6>								
-                                                <!--											<li><a href="products2.php">AC</a></li>
-                                                                                                                                        <li><a href="products2.php">Grinders</a></li>-->
+                                                <h6><a href="products2.blade.php">Быт.Техника</a></h6>								
+                                                <!--											<li><a href="products2.blade.php">AC</a></li>
+                                                                                                                                        <li><a href="products2.blade.php">Grinders</a></li>-->
                                             </ul>
                                         </div>
                                         <div class="col-sm-4">
@@ -117,27 +115,29 @@
                                     </div>
                                 </ul>
                             </li>
-                            <li><a href="about.php">О Нас</a></li> 
+                            <li><a href="about.blade.php">О Нас</a></li> 
 <!--						<li class="w3pages"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                            <li><a href="icons.php">Web Icons</a></li>
-                                            <li><a href="codes.php">Short Codes</a></li>     
+                                            <li><a href="icons.blade.php">Web Icons</a></li>
+                                            <li><a href="codes.blade.php">Short Codes</a></li>     
                                     </ul>
                             </li>  -->
-                            <li><a href="mail.php">Контакты</a></li>
+                            <li><a href="mail.blade.php">Контакты</a></li>
                         </ul>
                     </div>
                 </nav>
             </div>
         </div>
-	<!-- //navigation -->
-	<!-- banner -->
-	<div class="banner banner3">
-		<div class="container">
-			<h2>Большой выбор<span>Бытовой Техники</span></h2> 
-		</div>
-	</div> 
-	<div class="mobiles">
+        <!-- //navigation -->
+        <!-- banner -->
+        <div class="banner banner2">
+            <div class="container">
+                <h2>Большой выбор<span>Компьютеров,ноутбуков и комплектующих для ПК</span></h2> 
+            </div>
+        </div> 
+        <!-- breadcrumbs -->
+
+        <div class="mobiles">
             <div class="container">
                 <div class="w3ls_mobiles_grids">
                     <div class="col-md-4 w3ls_mobiles_grid_left">
@@ -156,10 +156,12 @@
                                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                             <div class="panel-body panel_text">
                                                 <ul>
-                                                    <li><a href="#">LG</a></li>
-                                                    <li><a href="#">Samsung</a></li>
-                                                    <li><a href="#">Borch</a></li>
-                                                    <li><a href="#">Daewoo</a></li>
+                                                    <li><a href="#">Asus</a></li>
+                                                    <li><a href="#">Apple</a></li>
+                                                    <li><a href="#">Lenovo</a></li>
+                                                    <li><a href="#">HP</a></li>
+                                                    <li><a href="#">Dell</a></li>
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -190,7 +192,7 @@
                             <div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
                                 <div class="agile_ecommerce_tab_left mobiles_grid">
                                     <div class="hs-wrapper hs-wrapper2">
-                                        <img src="images/daewoo.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/asusnote.jpg" alt=" " class="img-responsive" />
                                         <div class="w3_hs_bottom w3_hs_bottom_sub1">
                                             <ul>
                                                 <li style="color: white">
@@ -206,10 +208,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <h5 style="color: red">Daewoo 7X5Q4X</h5> 
+                                    <h5 style="color: red">Asus X541UJ-GQ385</h5> 
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">9999 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Smart Phone" /> 
@@ -222,7 +224,7 @@
                             <div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
                                 <div class="agile_ecommerce_tab_left mobiles_grid">
                                     <div class="hs-wrapper hs-wrapper2">
-                                        <img src="images/samsungholodit.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/macbookair.jpg" alt=" " class="img-responsive" />
                                         <div class="w3_hs_bottom w3_hs_bottom_sub1">
                                             <ul>
                                                 <li style="color: white">
@@ -244,10 +246,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <h5 style="color: red">Samsung RL-34ECTS</h5>
+                                    <h5 style="color: red">MacBook Air</h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">35 999 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Audio-speaker" /> 
@@ -263,7 +265,7 @@
                             <div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
                                 <div class="agile_ecommerce_tab_left mobiles_grid">
                                     <div class="hs-wrapper hs-wrapper2">
-                                        <img src="images/bosch.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/lenovonote.jpg" alt=" " class="img-responsive" />
                                         <div class="w3_hs_bottom w3_hs_bottom_sub1">
                                             <ul>
                                                 <li style="color: white">
@@ -283,10 +285,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <h5 style="color: red">Bosch Утюг</h5>
+                                    <h5 style="color: red">Lenovo 710S Plus-13</h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><span>14 999 грн</span> <i class="item_price">13599 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Red Mobile" /> 
@@ -302,7 +304,7 @@
                             <div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
                                 <div class="agile_ecommerce_tab_left mobiles_grid">
                                     <div class="hs-wrapper hs-wrapper2">
-                                        <img src="images/lgstiral.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/dell.jpg" alt=" " class="img-responsive" />
                                         <div class="w3_hs_bottom w3_hs_bottom_sub1">
                                             <ul>
                                                 <li style="color: white">
@@ -320,10 +322,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <h5 style="color: red">Стиральная машина LG F1096SD3</h5>
+                                    <h5 style="color: red">Dell A250</h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">11 299 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Headphone"/> 
@@ -339,7 +341,7 @@
                             <div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
                                 <div class="agile_ecommerce_tab_left mobiles_grid">
                                     <div class="hs-wrapper hs-wrapper2">
-                                        <img src="images/skarlet.jpg" alt=" " class="img-responsive" />
+                                        <img src="images/hp-pro.jpg" alt=" " class="img-responsive" />
                                         <div class="w3_hs_bottom w3_hs_bottom_sub1">
                                             <ul>
                                                 <li style="color: white">
@@ -356,10 +358,10 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <h5 style="color: red">Skarlet SC-070</h5>
+                                    <h5 style="color: red">HP Pro x2</h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">2899 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Wireless Speaker" /> 
@@ -384,9 +386,12 @@
     </div>
 </div>
 </div>  
-	<!-- //Related Products -->
-	<!-- newsletter -->
-	<div class="newsletter">
+
+<!-- Related Products -->
+
+<!-- //Related Products -->
+<!-- newsletter -->
+<div class="newsletter">
     <div class="container">
         <div class="col-md-6 w3agile_newsletter_left">
             <h3>Новости</h3>
@@ -401,9 +406,9 @@
         <div class="clearfix"> </div>
     </div>
 </div>
-	<!-- //newsletter -->
-	<!-- footer -->
-	<div class="footer">
+<!-- //newsletter -->
+<!-- footer -->
+<div class="footer">
     <div class="container">
         <div class="w3_footer_grids">
             <div class="col-md-3 w3_footer_grid">
@@ -417,26 +422,26 @@
             <div class="col-md-3 w3_footer_grid">
                 <h3>Информация</h3>
                 <ul class="info"> 
-                    <li><a href="about.php">О Нас</a></li>
-                    <li><a href="mail.php">Контакты</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="about.blade.php">О Нас</a></li>
+                    <li><a href="mail.blade.php">Контакты</a></li>
+
 
                 </ul>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <h3>Категории</h3>
                 <ul class="info"> 
-                    <li><a href="products.php">Смартфоны</a></li>
-                    <li><a href="products1.php">Компьютеры</a></li>
-                    <li><a href="products1.php">Бытовая Техника</a></li>
-                    
+                    <li><a href="products.blade.php">Смартфоны</a></li>
+                    <li><a href="products1.blade.php">Компьютеры</a></li>
+                    <li><a href="products1.blade.php">Бытовая Техника</a></li>
+
                 </ul>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <h3>Профиль</h3>
                 <ul class="info"> 
-                    <li><a href="index.php">Домой</a></li>
-                    <li><a href="products.php">SALE</a></li>
+                    <li><a href="index.blade.php">Домой</a></li>
+                    <li><a href="products.blade.php">SALE</a></li>
                 </ul>
                 <h4>Подпишись</h4>
                 <div class="agileits_social_button">
@@ -462,51 +467,23 @@
         </div>
     </div>
 </div>
-	<!-- //footer -->  
-	<script type="text/javascript">
-		$(window).load(function() {
-			$("#flexiselDemo2").flexisel({
-				visibleItems:4,
-				animationSpeed: 1000,
-				autoPlay: true,
-				autoPlaySpeed: 3000,    		
-				pauseOnHover: true,
-				enableResponsiveBreakpoints: true,
-				responsiveBreakpoints: { 
-					portrait: { 
-						changePoint:568,
-						visibleItems: 1
-					}, 
-					landscape: { 
-						changePoint:667,
-						visibleItems:2
-					},
-					tablet: { 
-						changePoint:768,
-						visibleItems: 3
-					}
-				}
-			});
-			
-		});
-	</script>
-	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
-	<!-- cart-js -->
-	<script src="js/minicart.js"></script>
-	<script>
-        w3ls.render();
+<!-- //footer -->  
+<!-- cart-js -->
+<script src="js/minicart.js"></script>
+<script>
+            w3ls.render();
 
-        w3ls.cart.on('w3sb_checkout', function (evt) {
-        	var items, len, i;
+            w3ls.cart.on('w3sb_checkout', function (evt) {
+                var items, len, i;
 
-        	if (this.subtotal() > 0) {
-        		items = this.items();
+                if (this.subtotal() > 0) {
+                    items = this.items();
 
-        		for (i = 0, len = items.length; i < len; i++) { 
-        		}
-        	}
-        });
-    </script>  
-	<!-- //cart-js --> 
+                    for (i = 0, len = items.length; i < len; i++) {
+                    }
+                }
+            });
+</script>  
+<!-- //cart-js --> 
 </body>
 </html>

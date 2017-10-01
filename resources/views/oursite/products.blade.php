@@ -47,7 +47,7 @@
         <div class="header" id="home1">
             <div class="container">			
                 <div class="w3l_logo">
-                    <h1><a href="index.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
+                    <h1><a href="index.blade.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
                 </div>
                 <div class="search">
                     <input class="search_box" type="checkbox" id="search_box">
@@ -84,7 +84,7 @@
                     </div> 
                     <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.php" class="act">Домой</a></li>	
+                            <li><a href="index.blade.php" class="act">Домой</a></li>	
                             <!-- Mega Menu -->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Категории<b class="caret"></b></a>
@@ -92,20 +92,20 @@
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products.php">Смартфоны</a></h6>
+                                                <h6><a href="products.blade.php">Смартфоны</a></h6>
                                             </ul>								</div>
                                         <div class="col-sm-3">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products1.php">Компьютеры</a></h6>			
-<!--											<li><a href="products1.php">Wearables <span>New</span></a></li>-->
-<!--											<li><a href="products1.php"><i>Summer Store</i></a></li>-->
+                                                <h6><a href="products1.blade.php">Компьютеры</a></h6>			
+<!--											<li><a href="products1.blade.php">Wearables <span>New</span></a></li>-->
+<!--											<li><a href="products1.blade.php"><i>Summer Store</i></a></li>-->
                                             </ul>
                                         </div>
                                         <div class="col-sm-2">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products2.php">Быт.Техника</a></h6>								
-                                                <!--											<li><a href="products2.php">AC</a></li>
-                                                                                                                                        <li><a href="products2.php">Grinders</a></li>-->
+                                                <h6><a href="products2.blade.php">Быт.Техника</a></h6>								
+                                                <!--											<li><a href="products2.blade.php">AC</a></li>
+                                                                                                                                        <li><a href="products2.blade.php">Grinders</a></li>-->
                                             </ul>
                                         </div>
                                         <div class="col-sm-4">
@@ -118,8 +118,8 @@
                                     </div>
                                 </ul>
                             </li>
-                            <li><a href="about.php">О Нас</a></li> 
-                            <li><a href="mail.php">Контакты</a></li>
+                            <li><a href="about.blade.php">О Нас</a></li> 
+                            <li><a href="mail.blade.php">Контакты</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -216,7 +216,7 @@
                                     <h5><a href="single.html">LG Q6</a></h5> 
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">9999 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Smart Phone" /> 
@@ -257,7 +257,7 @@
                                     <h5><a href="single.html">iPhone X</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">35 999 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Audio-speaker" /> 
@@ -296,7 +296,7 @@
                                     <h5><a href="single.html">Sony Xperia XA</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><span>14 999 грн</span> <i class="item_price">13599 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Red Mobile" /> 
@@ -333,7 +333,7 @@
                                     <h5><a href="single.html">Asus Zenfone 3 Deluxe</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">11 299 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Headphone"/> 
@@ -366,7 +366,7 @@
                                     <h5><a href="single.html">Lenovo Phab 2 Plus</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">2899 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Wireless Speaker" /> 
@@ -401,7 +401,7 @@
                                     <h5><a href="single.html">Samsung Galaxy A7 2017</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">12 000 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Asus Tablet" /> 
@@ -441,7 +441,7 @@
                                     <h5><a href="single.html">Nokia P1</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><span>$60</span> <i class="item_price">$58</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Ultra MP3 Player" /> 
@@ -479,7 +479,7 @@
                                     <h5><a href="single.html">Meizu M5</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">3999 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Golden Tablet" /> 
@@ -513,7 +513,7 @@
                                     <h5><a href="single.html">HTC 10</a></h5>
                                     <div class="simpleCart_shelfItem">
                                         <p><i class="item_price">17 499 грн</i></p>
-                                        <form action="basket.php" method="post">
+                                        <form action="basket.blade.php" method="post">
 <!--										<input type="hidden" name="cmd" value="_cart" />
                                                 <input type="hidden" name="add" value="1" /> 
                                                 <input type="hidden" name="w3ls_item" value="Wireless Phone" /> 
@@ -565,8 +565,8 @@
                     <div class="col-md-3 w3_footer_grid">
                         <h3>Информация</h3>
                         <ul class="info"> 
-                            <li><a href="about.php">О Нас</a></li>
-                            <li><a href="mail.php">Контакты</a></li>
+                            <li><a href="about.blade.php">О Нас</a></li>
+                            <li><a href="mail.blade.php">Контакты</a></li>
                             
 
                         </ul>
@@ -574,17 +574,17 @@
                     <div class="col-md-3 w3_footer_grid">
                         <h3>Категории</h3>
                         <ul class="info"> 
-                            <li><a href="products.php">Смартфоны</a></li>
-                            <li><a href="products1.php">Компьютеры</a></li>
-                            <li><a href="products2.php">Бытовая Техника</a></li>
+                            <li><a href="products.blade.php">Смартфоны</a></li>
+                            <li><a href="products1.blade.php">Компьютеры</a></li>
+                            <li><a href="products2.blade.php">Бытовая Техника</a></li>
 
                         </ul>
                     </div>
                     <div class="col-md-3 w3_footer_grid">
                         <h3>Профиль</h3>
                         <ul class="info"> 
-                            <li><a href="index.php">Домой</a></li>
-                            <li><a href="#sale.php">SALE</a></li>
+                            <li><a href="index.blade.php">Домой</a></li>
+                            <li><a href="#">SALE</a></li>
                         </ul>
                         <h4>Подпишись</h4>
                         <div class="agileits_social_button">

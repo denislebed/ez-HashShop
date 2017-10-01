@@ -48,7 +48,7 @@
         <div class="header" id="home1">
             <div class="container">			
                 <div class="w3l_logo">
-                    <h1><a href="index.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
+                    <h1><a href="index.blade.php">#Shop<span>Наши товары.Ваши деньги</span></a></h1>
                 </div>
                 <div class="search">
                     <input class="search_box" type="checkbox" id="search_box">
@@ -64,7 +64,7 @@
                     <form action="#" method="post" class="last"> 
 <!--                        <input type="hidden" name="cmd" value="_cart" />
                         <input type="hidden" name="display" value="1" />-->
-                        <a href="basket.php"<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button></a>
+                        <a href="basket.blade.php"<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button></a>
                     </form>   
                 </div>  
             </div>
@@ -85,7 +85,7 @@
                     </div> 
                     <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.php" class="act">Домой</a></li>	
+                            <li><a href="index.blade.php" class="act">Домой</a></li>	
                             <!-- Mega Menu -->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Категории<b class="caret"></b></a>
@@ -93,20 +93,20 @@
                                     <div class="row">
                                         <div class="col-sm-3">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products.php">Смартфоны</a></h6>
+                                                <h6><a href="products.blade.php">Смартфоны</a></h6>
                                             </ul>								</div>
                                         <div class="col-sm-3">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products1.php">Компьютеры</a></h6>			
-<!--											<li><a href="products1.php">Wearables <span>New</span></a></li>-->
-<!--											<li><a href="products1.php"><i>Summer Store</i></a></li>-->
+                                                <h6><a href="products1.blade.php">Компьютеры</a></h6>			
+<!--											<li><a href="products1.blade.php">Wearables <span>New</span></a></li>-->
+<!--											<li><a href="products1.blade.php"><i>Summer Store</i></a></li>-->
                                             </ul>
                                         </div>
                                         <div class="col-sm-2">
                                             <ul class="multi-column-dropdown">
-                                                <h6><a href="products2.php">Быт.Техника</a></h6>								
-                                                <!--											<li><a href="products2.php">AC</a></li>
-                                                                                                                                        <li><a href="products2.php">Grinders</a></li>-->
+                                                <h6><a href="products2.blade.php">Быт.Техника</a></h6>								
+                                                <!--											<li><a href="products2.blade.php">AC</a></li>
+                                                                                                                                        <li><a href="products2.blade.php">Grinders</a></li>-->
                                             </ul>
                                         </div>
                                         <div class="col-sm-4">
@@ -119,14 +119,14 @@
                                     </div>
                                 </ul>
                             </li>
-                            <li><a href="about.php">О Нас</a></li> 
+                            <li><a href="about.blade.php">О Нас</a></li> 
 <!--						<li class="w3pages"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                            <li><a href="icons.php">Web Icons</a></li>
-                                            <li><a href="codes.php">Short Codes</a></li>     
+                                            <li><a href="icons.blade.php">Web Icons</a></li>
+                                            <li><a href="codes.blade.php">Short Codes</a></li>     
                                     </ul>
                             </li>  -->
-                            <li><a href="mail.php">Контакты</a></li>
+                            <li><a href="mail.blade.php">Контакты</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -180,26 +180,26 @@
             <div class="col-md-3 w3_footer_grid">
                 <h3>Информация</h3>
                 <ul class="info"> 
-                    <li><a href="about.php">О Нас</a></li>
-                    <li><a href="mail.php">Контакты</a></li>
-                    <li><a href="faq.php">FAQ</a></li>
+                    <li><a href="about.blade.php">О Нас</a></li>
+                    <li><a href="mail.blade.php">Контакты</a></li>
+                    <li><a href="faq.blade.php">FAQ</a></li>
 
                 </ul>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <h3>Категории</h3>
                 <ul class="info"> 
-                    <li><a href="products.php">Смартфоны</a></li>
-                    <li><a href="products1.php">Компьютеры</a></li>
-                    <li><a href="products1.php">Бытовая Техника</a></li>
+                    <li><a href="products.blade.php">Смартфоны</a></li>
+                    <li><a href="products1.blade.php">Компьютеры</a></li>
+                    <li><a href="products1.blade.php">Бытовая Техника</a></li>
                     
                 </ul>
             </div>
             <div class="col-md-3 w3_footer_grid">
                 <h3>Профиль</h3>
                 <ul class="info"> 
-                    <li><a href="index.php">Домой</a></li>
-                    <li><a href="products.php">SALE</a></li>
+                    <li><a href="index.blade.php">Домой</a></li>
+                    <li><a href="products.blade.php">SALE</a></li>
                 </ul>
                 <h4>Подпишись</h4>
                 <div class="agileits_social_button">
