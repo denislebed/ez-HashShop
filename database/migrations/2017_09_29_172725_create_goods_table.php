@@ -13,12 +13,17 @@ class CreateGoodsTable extends Migration
     public function up()
     {
         Schema::create('goods', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+            $table->increments('id');
+            $table->integer('category_id')->unsigned();
 	    $table->string('name', 100);
 	    $table->decimal('price', 8,2)->unsigned();
 	    $table->text('description');
 	    $table->text('image');
             $table->timestamps();
+        });
+        Schema::table('goods', function (Blueprint $table) {
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+            
         });
     }
 
