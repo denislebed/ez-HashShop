@@ -28,8 +28,8 @@ Route::delete('/admin/order/{order}', 'OrderController@destroy');
 
 //Route::get('/categories', 'UserCategoryController@index');
 //Route::get('/categories/{category}', 'UserCategoryController@category');
-//Route::get('/contacts', 'ContactController@index');
-//Route::get('/about', 'AboutController@index');
+Route::get('/contacts', 'ContactController@index');
+Route::get('/about', 'AboutController@index');
 //Route::get('/categories/{category}/{product}', 'UserProductController@index');
 //Route::post('/addBasket', 'UserProductController@to_basket');
 //Route::get('/basket', ' BasketController@index');
