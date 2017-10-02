@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin_app')
 
 @section('content')
 <nav class="navbar navbar-default navbar-static-top">

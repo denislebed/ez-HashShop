@@ -18,7 +18,7 @@ class CreateGoodOrdersTable extends Migration {
             $table->integer('amount')->unsigned();
             $table->timestamps();
         });
-        Schema::table('goods_orders', function (Blueprint $table) {
+        Schema::table('good_orders', function (Blueprint $table) {
             $table->foreign('goods_id')
                     ->references('id')->on('goods')->onDelete('cascade');
             $table->foreign('orders_id')

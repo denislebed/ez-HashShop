@@ -15,6 +15,18 @@ class MainController extends Controller
      */
     public function index()
     {
-        return view('main');
+        return view('user.main');
+    }
+    public function about()
+    {
+        return view('user.about');
+    }
+    public function contacts()
+    {
+        return view('user.contacts');
+    }
+    public function basket()
+    {
+        return view('user.basket');
     }
 }
