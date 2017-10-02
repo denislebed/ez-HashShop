@@ -28,9 +28,13 @@ Route::delete('/admin/order/{order}', 'OrderController@destroy');
 
 
 Route::get('/about', 'MainController@about');
+
+Route::get('/sess', 'MainController@sess');
+Route::get('/sess1', 'MainController@sess1');
+
 Route::get('/contacts', 'MainController@contacts');
 Route::get('/basket', 'MainController@basket');
-//Route::get('/categories', 'UserCategoryController@index');
+Route::get('/{category}', 'MainController@category');
 //Route::get('/categories/{category}', 'UserCategoryController@category');
 
 

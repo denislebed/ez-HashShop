@@ -13,17 +13,17 @@
 <!-- new-products -->
 <div class="new-products">
     <div class="container">
-	<h3>Категории</h3>
+	<h3>{{$category_id->name}}</h3>
 
 	<div class="agileinfo_new_products_grids">
-	    @foreach ($categories as $category)
+	    @foreach ($goods as $good)
 	    <div class="col-md-3 agileinfo_new_products_grid">
 
 		<div class="agile_ecommerce_tab_left agileinfo_new_products_grid1">
 		    <div class="hs-wrapper hs-wrapper1">
 			<img src="images/dell.jpg" alt=" " class="img-responsive" />
 		    </div>
-		    <h5><a href="{{url($category->id)}}">{{$category->name}}</a></h5>
+		    <h5><a href="">{{$good->name}}</a></h5>
 		</div>
 	    </div>
 	    @endforeach
@@ -84,7 +84,7 @@
 
 	    });
 	</script>
-	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	<script src="js/jquery.flexisel.js" type="text/javascript"></script>
     </div>
 </div>
 <!-- //top-brands --> 

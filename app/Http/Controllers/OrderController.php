@@ -31,7 +31,7 @@ class OrderController extends Controller {
         $order_id=Order::find($order->id);
         var_dump($order_id);
         $goods=GoodOrder::where('goods_id',$order_id->id)->get();
-        var_dump($goods);
+        var_dump($goods->goodorder);
         
     }
 
